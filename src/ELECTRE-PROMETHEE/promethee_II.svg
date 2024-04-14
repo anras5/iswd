@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278pt" height="1459pt" viewBox="0.00 0.00 278.00 1459.39">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1455.3911)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1455.3911 274,-1455.3911 274,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#ffffff" stroke="transparent" points="65,-1390.6215 65,-1443.3911 205,-1443.3911 205,-1390.6215 65,-1390.6215"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#ffffff" stroke="transparent" points="61,-1317.8519 61,-1370.6215 209,-1370.6215 209,-1317.8519 61,-1317.8519"/>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_3</title>
+<polygon fill="#ffffff" stroke="transparent" points="62,-1245.0824 62,-1297.8519 208,-1297.8519 208,-1245.0824 62,-1245.0824"/>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_4</title>
+<polygon fill="#ffffff" stroke="transparent" points="8,-1172.3128 8,-1225.0824 262,-1225.0824 262,-1172.3128 8,-1172.3128"/>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_5</title>
+<polygon fill="#ffffff" stroke="transparent" points="11,-1099.5433 11,-1152.3128 259,-1152.3128 259,-1099.5433 11,-1099.5433"/>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_6</title>
+<polygon fill="#ffffff" stroke="transparent" points="58,-1026.7737 58,-1079.5433 212,-1079.5433 212,-1026.7737 58,-1026.7737"/>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_7</title>
+<polygon fill="#ffffff" stroke="transparent" points="55,-954.0042 55,-1006.7737 215,-1006.7737 215,-954.0042 55,-954.0042"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_8</title>
+<polygon fill="#ffffff" stroke="transparent" points="56,-881.2346 56,-934.0042 214,-934.0042 214,-881.2346 56,-881.2346"/>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_9</title>
+<polygon fill="#ffffff" stroke="transparent" points="63,-808.4651 63,-861.2346 207,-861.2346 207,-808.4651 63,-808.4651"/>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_10</title>
+<polygon fill="#ffffff" stroke="transparent" points="51,-735.6955 51,-788.4651 219,-788.4651 219,-735.6955 51,-735.6955"/>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_11</title>
+<polygon fill="#ffffff" stroke="transparent" points="56,-662.926 56,-715.6955 214,-715.6955 214,-662.926 56,-662.926"/>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_12</title>
+<polygon fill="#ffffff" stroke="transparent" points="38,-590.1564 38,-642.926 232,-642.926 232,-590.1564 38,-590.1564"/>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_13</title>
+<polygon fill="#ffffff" stroke="transparent" points="55,-517.3869 55,-570.1564 215,-570.1564 215,-517.3869 55,-517.3869"/>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_14</title>
+<polygon fill="#ffffff" stroke="transparent" points="55,-444.6173 55,-497.3869 215,-497.3869 215,-444.6173 55,-444.6173"/>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_15</title>
+<polygon fill="#ffffff" stroke="transparent" points="39,-371.8478 39,-424.6173 231,-424.6173 231,-371.8478 39,-371.8478"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_16</title>
+<polygon fill="#ffffff" stroke="transparent" points="54,-299.0782 54,-351.8478 216,-351.8478 216,-299.0782 54,-299.0782"/>
+</g>
+<g id="clust17" class="cluster">
+<title>cluster_17</title>
+<polygon fill="#ffffff" stroke="transparent" points="51,-226.3087 51,-279.0782 219,-279.0782 219,-226.3087 51,-226.3087"/>
+</g>
+<g id="clust18" class="cluster">
+<title>cluster_18</title>
+<polygon fill="#ffffff" stroke="transparent" points="65,-153.5391 65,-206.3087 205,-206.3087 205,-153.5391 65,-153.5391"/>
+</g>
+<g id="clust19" class="cluster">
+<title>cluster_19</title>
+<polygon fill="#ffffff" stroke="transparent" points="54,-80.7696 54,-133.5391 216,-133.5391 216,-80.7696 54,-80.7696"/>
+</g>
+<g id="clust20" class="cluster">
+<title>cluster_20</title>
+<polygon fill="#ffffff" stroke="transparent" points="58,-8 58,-60.7696 212,-60.7696 212,-8 58,-8"/>
+</g>
+<!-- node1 -->
+<g id="node1" class="node">
+<title>node1</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1417.0063" rx="62.064" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1412.5063" font-family="Segoe UI" font-size="15.00" fill="#000000">Joel Embiid</text>
+</g>
+<!-- node2 -->
+<g id="node2" class="node">
+<title>node2</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1344.2367" rx="66.275" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1339.7367" font-family="Segoe UI" font-size="15.00" fill="#000000">Luka Doncic</text>
+</g>
+<!-- node1&#45;&gt;node2 -->
+<g id="edge1" class="edge">
+<title>node1-&gt;node2</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1398.2663C135,-1390.4823 135,-1381.2766 135,-1372.6903"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-1362.6613 139.5001,-1372.6612 135,-1367.6613 135.0001,-1372.6613 135.0001,-1372.6613 135.0001,-1372.6613 135,-1367.6613 130.5001,-1372.6613 135,-1362.6613 135,-1362.6613"/>
+</g>
+<!-- node14 -->
+<g id="node14" class="node">
+<title>node14</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1271.4672" rx="65.44" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1266.9672" font-family="Segoe UI" font-size="15.00" fill="#000000">Nikola Jokic</text>
+</g>
+<!-- node2&#45;&gt;node14 -->
+<g id="edge2" class="edge">
+<title>node2-&gt;node14</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1325.4968C135,-1317.7127 135,-1308.507 135,-1299.9207"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-1289.8917 139.5001,-1299.8917 135,-1294.8917 135.0001,-1299.8917 135.0001,-1299.8917 135.0001,-1299.8917 135,-1294.8917 130.5001,-1299.8918 135,-1289.8917 135,-1289.8917"/>
+</g>
+<!-- node3 -->
+<g id="node3" class="node">
+<title>node3</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1125.9281" rx="115.7897" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1121.4281" font-family="Segoe UI" font-size="15.00" fill="#000000">Giannis Antetokounmpo</text>
+</g>
+<!-- node5 -->
+<g id="node5" class="node">
+<title>node5</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1053.1585" rx="69.1704" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1048.6585" font-family="Segoe UI" font-size="15.00" fill="#000000">Kevin Durant</text>
+</g>
+<!-- node3&#45;&gt;node5 -->
+<g id="edge3" class="edge">
+<title>node3-&gt;node5</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1107.1881C135,-1099.404 135,-1090.1984 135,-1081.6121"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-1071.5831 139.5001,-1081.583 135,-1076.5831 135.0001,-1081.5831 135.0001,-1081.5831 135.0001,-1081.5831 135,-1076.5831 130.5001,-1081.5831 135,-1071.5831 135,-1071.5831"/>
+</g>
+<!-- node4 -->
+<g id="node4" class="node">
+<title>node4</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-1198.6976" rx="118.6341" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-1194.1976" font-family="Segoe UI" font-size="15.00" fill="#000000">Shai Gilgeous-Alexander</text>
+</g>
+<!-- node4&#45;&gt;node3 -->
+<g id="edge4" class="edge">
+<title>node4-&gt;node3</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1179.9577C135,-1172.1736 135,-1162.9679 135,-1154.3816"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-1144.3526 139.5001,-1154.3526 135,-1149.3526 135.0001,-1154.3526 135.0001,-1154.3526 135.0001,-1154.3526 135,-1149.3526 130.5001,-1154.3527 135,-1144.3526 135,-1144.3526"/>
+</g>
+<!-- node16 -->
+<g id="node16" class="node">
+<title>node16</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-980.389" rx="72.0637" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-975.889" font-family="Segoe UI" font-size="15.00" fill="#000000">LeBron James</text>
+</g>
+<!-- node5&#45;&gt;node16 -->
+<g id="edge5" class="edge">
+<title>node5-&gt;node16</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1034.4185C135,-1026.6345 135,-1017.4288 135,-1008.8425"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-998.8135 139.5001,-1008.8135 135,-1003.8135 135.0001,-1008.8135 135.0001,-1008.8135 135.0001,-1008.8135 135,-1003.8135 130.5001,-1008.8136 135,-998.8135 135,-998.8135"/>
+</g>
+<!-- node6 -->
+<g id="node6" class="node">
+<title>node6</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-616.5412" rx="88.5713" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-612.0412" font-family="Segoe UI" font-size="15.00" fill="#000000">Donovan Mitchell</text>
+</g>
+<!-- node7 -->
+<g id="node7" class="node">
+<title>node7</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-543.7716" rx="71.9011" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-539.2716" font-family="Segoe UI" font-size="15.00" fill="#000000">Jalen Brunson</text>
+</g>
+<!-- node6&#45;&gt;node7 -->
+<g id="edge6" class="edge">
+<title>node6-&gt;node7</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-597.8012C135,-590.0172 135,-580.8115 135,-572.2252"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-562.1962 139.5001,-572.1961 135,-567.1962 135.0001,-572.1962 135.0001,-572.1962 135.0001,-572.1962 135,-567.1962 130.5001,-572.1962 135,-562.1962 135,-562.1962"/>
+</g>
+<!-- node15 -->
+<g id="node15" class="node">
+<title>node15</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-471.0021" rx="72.0447" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-466.5021" font-family="Segoe UI" font-size="15.00" fill="#000000">Tyrese Maxey</text>
+</g>
+<!-- node7&#45;&gt;node15 -->
+<g id="edge7" class="edge">
+<title>node7-&gt;node15</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-525.0317C135,-517.2476 135,-508.0419 135,-499.4556"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-489.4266 139.5001,-499.4266 135,-494.4266 135.0001,-499.4266 135.0001,-499.4266 135.0001,-499.4266 135,-494.4266 130.5001,-499.4267 135,-489.4266 135,-489.4266"/>
+</g>
+<!-- node8 -->
+<g id="node8" class="node">
+<title>node8</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-907.6194" rx="70.5459" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-903.1194" font-family="Segoe UI" font-size="15.00" fill="#000000">Jayson Tatum</text>
+</g>
+<!-- node17 -->
+<g id="node17" class="node">
+<title>node17</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-834.8499" rx="64.0634" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-830.3499" font-family="Segoe UI" font-size="15.00" fill="#000000">Kyrie Irving</text>
+</g>
+<!-- node8&#45;&gt;node17 -->
+<g id="edge8" class="edge">
+<title>node8-&gt;node17</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-888.8794C135,-881.0954 135,-871.8897 135,-863.3034"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-853.2744 139.5001,-863.2744 135,-858.2744 135.0001,-863.2744 135.0001,-863.2744 135.0001,-863.2744 135,-858.2744 130.5001,-863.2744 135,-853.2744 135,-853.2744"/>
+</g>
+<!-- node9 -->
+<g id="node9" class="node">
+<title>node9</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-689.3107" rx="71.2149" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-684.8107" font-family="Segoe UI" font-size="15.00" fill="#000000">Devin Booker</text>
+</g>
+<!-- node9&#45;&gt;node6 -->
+<g id="edge9" class="edge">
+<title>node9-&gt;node6</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-670.5708C135,-662.7867 135,-653.581 135,-644.9947"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-634.9657 139.5001,-644.9657 135,-639.9657 135.0001,-644.9657 135.0001,-644.9657 135.0001,-644.9657 135,-639.9657 130.5001,-644.9658 135,-634.9657 135,-634.9657"/>
+</g>
+<!-- node10 -->
+<g id="node10" class="node">
+<title>node10</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-325.463" rx="72.7554" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-320.963" font-family="Segoe UI" font-size="15.00" fill="#000000">Stephen Curry</text>
+</g>
+<!-- node19 -->
+<g id="node19" class="node">
+<title>node19</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-252.6934" rx="76.3108" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-248.1934" font-family="Segoe UI" font-size="15.00" fill="#000000">Damian Lillard</text>
+</g>
+<!-- node10&#45;&gt;node19 -->
+<g id="edge10" class="edge">
+<title>node10-&gt;node19</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-306.723C135,-298.939 135,-289.7333 135,-281.147"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-271.118 139.5001,-281.1179 135,-276.118 135.0001,-281.118 135.0001,-281.118 135.0001,-281.118 135,-276.118 130.5001,-281.118 135,-271.118 135,-271.118"/>
+</g>
+<!-- node11 -->
+<g id="node11" class="node">
+<title>node11</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-107.1543" rx="72.7342" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-102.6543" font-family="Segoe UI" font-size="15.00" fill="#000000">De'Aaron Fox</text>
+</g>
+<!-- node20 -->
+<g id="node20" class="node">
+<title>node20</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-34.3848" rx="68.5232" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-29.8848" font-family="Segoe UI" font-size="15.00" fill="#000000">Julius Randle</text>
+</g>
+<!-- node11&#45;&gt;node20 -->
+<g id="edge11" class="edge">
+<title>node11-&gt;node20</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-88.4144C135,-80.6303 135,-71.4246 135,-62.8383"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-52.8093 139.5001,-62.8093 135,-57.8093 135.0001,-62.8093 135.0001,-62.8093 135.0001,-62.8093 135,-57.8093 130.5001,-62.8094 135,-52.8093 135,-52.8093"/>
+</g>
+<!-- node12 -->
+<g id="node12" class="node">
+<title>node12</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-179.9239" rx="62.0259" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-175.4239" font-family="Segoe UI" font-size="15.00" fill="#000000">Trae Young</text>
+</g>
+<!-- node12&#45;&gt;node11 -->
+<g id="edge12" class="edge">
+<title>node12-&gt;node11</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-161.1839C135,-153.3999 135,-144.1942 135,-135.6079"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-125.5789 139.5001,-135.5788 135,-130.5789 135.0001,-135.5789 135.0001,-135.5789 135.0001,-135.5789 135,-130.5789 130.5001,-135.5789 135,-125.5789 135,-125.5789"/>
+</g>
+<!-- node13 -->
+<g id="node13" class="node">
+<title>node13</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-398.2325" rx="88.3875" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-393.7325" font-family="Segoe UI" font-size="15.00" fill="#000000">Anthony Edwards</text>
+</g>
+<!-- node13&#45;&gt;node10 -->
+<g id="edge13" class="edge">
+<title>node13-&gt;node10</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-379.4926C135,-371.7085 135,-362.5028 135,-353.9165"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-343.8875 139.5001,-353.8875 135,-348.8875 135.0001,-353.8875 135.0001,-353.8875 135.0001,-353.8875 135,-348.8875 130.5001,-353.8876 135,-343.8875 135,-343.8875"/>
+</g>
+<!-- node14&#45;&gt;node4 -->
+<g id="edge14" class="edge">
+<title>node14-&gt;node4</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-1252.7272C135,-1244.9432 135,-1235.7375 135,-1227.1512"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-1217.1222 139.5001,-1227.1221 135,-1222.1222 135.0001,-1227.1222 135.0001,-1227.1222 135.0001,-1227.1222 135,-1222.1222 130.5001,-1227.1222 135,-1217.1222 135,-1217.1222"/>
+</g>
+<!-- node15&#45;&gt;node13 -->
+<g id="edge15" class="edge">
+<title>node15-&gt;node13</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-452.2621C135,-444.4781 135,-435.2724 135,-426.6861"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-416.6571 139.5001,-426.657 135,-421.6571 135.0001,-426.6571 135.0001,-426.6571 135.0001,-426.6571 135,-421.6571 130.5001,-426.6571 135,-416.6571 135,-416.6571"/>
+</g>
+<!-- node16&#45;&gt;node8 -->
+<g id="edge16" class="edge">
+<title>node16-&gt;node8</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-961.649C135,-953.8649 135,-944.6592 135,-936.073"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-926.044 139.5001,-936.0439 135,-931.044 135.0001,-936.044 135.0001,-936.044 135.0001,-936.044 135,-931.044 130.5001,-936.044 135,-926.044 135,-926.044"/>
+</g>
+<!-- node18 -->
+<g id="node18" class="node">
+<title>node18</title>
+<ellipse fill="#e2e8f0" stroke="#e2e8f0" cx="135" cy="-762.0803" rx="75.655" ry="18.2703"/>
+<text text-anchor="middle" x="135" y="-757.5803" font-family="Segoe UI" font-size="15.00" fill="#000000">Anthony Davis</text>
+</g>
+<!-- node17&#45;&gt;node18 -->
+<g id="edge17" class="edge">
+<title>node17-&gt;node18</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-816.1099C135,-808.3258 135,-799.1201 135,-790.5338"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-780.5049 139.5001,-790.5048 135,-785.5049 135.0001,-790.5049 135.0001,-790.5049 135.0001,-790.5049 135,-785.5049 130.5001,-790.5049 135,-780.5049 135,-780.5049"/>
+</g>
+<!-- node18&#45;&gt;node9 -->
+<g id="edge18" class="edge">
+<title>node18-&gt;node9</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-743.3403C135,-735.5563 135,-726.3506 135,-717.7643"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-707.7353 139.5001,-717.7353 135,-712.7353 135.0001,-717.7353 135.0001,-717.7353 135.0001,-717.7353 135,-712.7353 130.5001,-717.7353 135,-707.7353 135,-707.7353"/>
+</g>
+<!-- node19&#45;&gt;node12 -->
+<g id="edge19" class="edge">
+<title>node19-&gt;node12</title>
+<path fill="none" stroke="#4fd1c5" d="M135,-233.9535C135,-226.1694 135,-216.9637 135,-208.3774"/>
+<polygon fill="#4fd1c5" stroke="#4fd1c5" points="135,-198.3484 139.5001,-208.3484 135,-203.3484 135.0001,-208.3484 135.0001,-208.3484 135.0001,-208.3484 135,-203.3484 130.5001,-208.3485 135,-198.3484 135,-198.3484"/>
+</g>
+</g>
+</svg>
