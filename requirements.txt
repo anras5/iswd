@@ -1,5 +1,6 @@
 jupyter
 graphviz
+shap
 pulp
 pandas
 matplotlib
