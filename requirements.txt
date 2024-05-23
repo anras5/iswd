@@ -1,4 +1,10 @@
 jupyter
+graphviz
+shap
 pulp
 pandas
 matplotlib
+seaborn
+xgboost
+scikit-learn
+torch
