@@ -1,5 +1,13 @@
 # Data Envelopment Analysis
 
+Run the script
+```
+docker exec -it iswd-jupyter-lab-1 bash
+cd DATA-ENVELOPMENT-ANALYSIS
+python3 main.py
+```
+
+
 Create raport (not inside docker)
 ```
 cd raport
