@@ -1,0 +1,127 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{xcolor}
+\usepackage{float}
+
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage[a4paper]{geometry}
+\usepackage{amsmath}
+\usepackage[section]{placeins}
+\usepackage[tagged, highstructure]{accessibility}
+\usepackage{tabularx}
+\usepackage{pdfcomment}
+\usepackage{xcolor}
+\usepackage{float}
+
+\author{{Filip Marciniak 148148, Szymon Pasternak 148146}}
+\date{{26.05.2024}}
+
+\title{Graniczna Analiza Danych - raport}
+
+\begin{document}
+\maketitle
+
+W sprawozdaniu przedstawione zostały wyniki i wnioski z analizy efektywności lotnisk.
+
+\section{Efektywność}
+
+W poniższej tabeli przedstawiono otrzymane wartości efektywności dla analizowanych lotnisk.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c}
+    \hline
+         Lotnisko & Efektywność  \\ \hline
+         WAW & 1.000 \\
+         KRK & \ldots \\
+         \ldots & \ldots \\
+         \hline
+    \end{tabular}
+    \caption{Wartości efektywności dla analizowanych lotnisk}
+    \label{tab:airports-efficiency}
+\end{table}
+
+\noindent \textcolor{blue}{Wypisz lotniska efektywne oraz nieefektywne:} \\
+Lotniska efektywne: \ldots \\
+Lotniska nieefektywne: \ldots
+
+\section{Hipotetyczna jednostka porównawcza oraz potrzebne poprawki}
+
+\textcolor{blue}{W tabeli poniżej przedstaw otrzymane wartości wejść hipotetycznej jednostki porównawczej poprawki potrzebne do osiągnięcia efektywności (tylko wejścia) dla wszystkich nieefektywnych lotnisk.}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|cccc|cccc}
+    \hline
+        & \multicolumn{4}{c|}{HCU} & \multicolumn{4}{c}{Poprawki}  \\
+         Lotnisko & $i_1$ & $i_2$ & $i_3$ & $i_4$ & $i_1$ & $i_2$ & $i_3$ & $i_4$ \\ \hline
+         WAW & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+         \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+    \end{tabular}
+    \caption{Wartości wejść hipotetycznej jednostki porównawczej oraz poprawki potrzebne do osiągnięcia efektywności dla nieefektywnych lotnisk }
+    \label{tab:airports-hcu-and-improvements}
+\end{table}
+
+\section{Superefektywność}
+
+\textcolor{blue}{Otrzymane wartości superefektywności dla \textbf{wszystkich} lotnisk przedstaw w tabeli poniżej.}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c}
+    \hline
+         Lotnisko & Superefektywność  \\ \hline
+         WAW & \ldots \\
+         \hline
+    \end{tabular}
+    \caption{Wartości superefektywności dla analizowanych lotnisk}
+    \label{tab:airports-super-efficiency}
+\end{table}
+
+\section{Efektywność krzyżowa}
+
+\textcolor{blue}{W poniższej tabeli przedstaw macierz efektywności krzyżowych dla wszystkich lotnisk oraz ich średnie efektywności krzyżowa.}    
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{c|ccccccccccc|c}
+\hline
+& WAW & KRK & KAT & WRO & POZ & LCJ & GDN &SZZ & BZG & RZE & IEG & $CR_{avg}$ \\ \hline
+WAW & 1.000 & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\ 
+\hline
+\end{tabular}}
+\label{tab:airports-cross-efficiency}
+\end{table}
+            
+\section{Rozkład efektywności}
+\textcolor{blue}{W tej sekcji pokaż wyniki rozkładu efektywności (podział na 5 przedziałów) oraz oszacowaną oczekiwaną wartość efektywności dla wszystkich lotnisk.}
+\begin{table}[H]
+\begin{tabular}{c|ccccc|c}
+\hline
+    & $[0-0.2)$ & $[0.2-0.4)$ & $[0.4-0.6)$ & $[0.6-0.8)$ & $[0.8-1.0]$ & $EE$    \\ \hline
+WAW & 0.00      & \ldots & \ldots & \ldots & \ldots & \ldots \\
+\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+\hline
+\end{tabular}
+\label{tab:efficiency-distribution}
+\end{table}
+
+\section{Rankingi jednostek}
+\textcolor{blue}{Przedstaw i porównaj rankingi lotnisk uzyskane różnymi metodami (superefektywność, średnia efektywność krzyżowa oraz oczekiwana wartość efektywności).}
+
+\noindent Superefektywność: $WAW \succ \ldots \succ \ldots$ \\
+Średnia efektywność krzyżowa: \ldots \\
+Oczekiwana wartość efektywności: \ldots \\
+
+\textcolor{blue}{Tu przedstaw wnioski z porównania rankingów.}
+
+\end{document}

@@ -159,3 +159,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+#
+
+# Latex
+# Ignore everything in the raport directory
+src/DATA-ENVELOPMENT-ANALYSIS/raport/*
+
+# But do not ignore .tex and .sh files in the raport directory
+!src/DATA-ENVELOPMENT-ANALYSIS/raport/*.tex
+!src/DATA-ENVELOPMENT-ANALYSIS/raport/*.sh
