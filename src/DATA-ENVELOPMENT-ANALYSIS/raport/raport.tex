@@ -16,11 +16,15 @@
 \usepackage[a4paper]{geometry}
 \usepackage{amsmath}
 \usepackage[section]{placeins}
-\usepackage[tagged, highstructure]{accessibility}
 \usepackage{tabularx}
 \usepackage{pdfcomment}
-\usepackage{xcolor}
-\usepackage{float}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
 
 \author{{Filip Marciniak 148148, Szymon Pasternak 148146}}
 \date{{26.05.2024}}
@@ -31,10 +35,36 @@
 \maketitle
 
 W sprawozdaniu przedstawione zostały wyniki i wnioski z analizy efektywności lotnisk.
+W tabeli \ref{tab:airports} przedstawiono dane wejściowe dla problemu.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|cccc|cc}
+    \hline
+         Lotnisko & i1 & i2 & i3 & i4 & o1 & o2  \\ \hline
+         WAW & 10.5 & 36 & 129.4 & 7 & 9.5 & 129.7 \\
+         KRK & 3.1 & 19 & 31.6 & 7.9 & 2.9 & 31.3 \\
+         KAT & 3.6 & 32 & 57.4 & 10.5 & 2.4 & 21.1 \\
+         WRO & 1.5 & 12 & 18 & 3 & 1.5 & 18.8 \\
+         POZ & 1.5 & 10 & 24 & 4 & 1.3 & 16.2 \\
+         LCJ & 0.6 & 12 & 24 & 3.9 & 0.3 & 4.2 \\
+         GDN & 1 & 15 & 42.9 & 2.5 & 2 & 23.6 \\
+         SZZ & 0.7 & 10 & 25.7 & 1.9 & 0.3 & 4.2 \\
+         BZG & 0.3 & 6 & 3.4 & 1.2 & 0.3 & 6.2 \\
+         RZE & 0.6 & 6 & 11.3 & 2.7 & 0.3 & 3.5 \\
+         IEG & 0.1 & 10 & 63.4 & 3 & 0.005 & 0.61 \\
+    \end{tabular}
+    \caption{Wartości wejść oraz wyjść dla lotnisk}
+    \label{tab:airports}
+\end{table}
+
+\noindent W ramach zadania należy przeprowadzić analizę efektywności dla przedstawionego problemu, w którym jest 11 lotnisk, z których każde ma 4 wejścia oraz 2 wyjścia.
+
 
 \section{Efektywność}
 
-W poniższej tabeli przedstawiono otrzymane wartości efektywności dla analizowanych lotnisk.
+W tabeli \ref{tab:airports-efficiency} przedstawiono otrzymane wartości efektywności dla analizowanych lotnisk.
+
 \begin{table}[H]
     \centering
     \begin{tabular}{c|c}
@@ -50,7 +80,8 @@ W poniższej tabeli przedstawiono otrzymane wartości efektywności dla analizow
          SZZ & 0.271 \\
          BZG & 1.000 \\
          RZE & 0.409 \\
-         IEG & 0.258 \\
+         IEG & 0.258 \\   
+    \hline
     \end{tabular}
     \caption{Wartości efektywności dla analizowanych lotnisk}
     \label{tab:airports-efficiency}
@@ -58,11 +89,15 @@ W poniższej tabeli przedstawiono otrzymane wartości efektywności dla analizow
 
 \noindent Lotniska efektywne oraz nieefektywne: \\
 Lotniska efektywne: WAW, KRK, WRO, GDN, BZG \\
-Lotniska nieefektywne: KAT, POZ, LCJ, SZZ, RZE, IEG
+Lotniska nieefektywne: KAT, POZ, LCJ, SZZ, RZE, IEG \\
+Wśród jedenastu rozważanych lotnisk, pięć z nich okazało się efektywnych, a sześć nieefektywnych.
+Różnice wśród lotnisk nieefektywnych są spore, przykładowo Poznań uzyskuje efektywność na poziomie 0.8, a Zielona-Góra Babimost na poziomie 0.258.
+Co można łatwo zauważyć to że lotniska, które znajdują się w pobliżu większych miast oraz metropolii uzyskują wyższe efektywności lub po prostu są efektywne.
+
 
 \section{Hipotetyczna jednostka porównawcza oraz potrzebne poprawki}
 
-Otrzymane wartości wejść hipotetycznej jednostki porównawczej poprawki oraz potrzebne do osiągnięcia efektywności (tylko wejścia) dla wszystkich nieefektywnych lotnisk.
+W tabeli \ref{tab:airports-hcu-and-improvements} przedstawione zostały otrzymane wartości wejść hipotetycznej jednostki porównawczej poprawki oraz potrzebne do osiągnięcia efektywności (tylko wejścia) dla wszystkich nieefektywnych lotnisk.
 
 \begin{table}[H]
     \centering
@@ -75,15 +110,20 @@ Otrzymane wartości wejść hipotetycznej jednostki porównawczej poprawki oraz 
         LCJ & 0.180 & 2.783 & 7.201 & 0.475 & 0.420 & 9.217 & 16.799 & 3.425 \\
         SZZ & 0.190 & 2.708 & 6.959 & 0.465 & 0.510 & 7.292 & 18.741 & 1.435 \\
         RZE & 0.246 & 2.455 & 4.624 & 0.537 & 0.354 & 3.545 & 6.676 & 2.163 \\
-        IEG & 0.026 & 0.388 & 1.109 & 0.065 & 0.074 & 9.612 & 62.291 & 2.935 \\
+        IEG & 0.026 & 0.388 & 1.109 & 0.065 & 0.074 & 9.612 & 62.291 & 2.935 \\    
+    \hline
     \end{tabular}
     \caption{Wartości wejść hipotetycznej jednostki porównawczej oraz poprawki potrzebne do osiągnięcia efektywności dla nieefektywnych lotnisk }
     \label{tab:airports-hcu-and-improvements}
 \end{table}
 
+\noindent Największe poprawki można zaobserwować dla lotniska IEG - w szczególności dla wejścia trzeciego, czyli średniej liczby samolotów, które może obsłużyć lotnisko.
+Lotnisko w Katowicach jako jedyne ma poprawkę większą niż 1 dla wejścia pierwszego, czyli dla przepustowości przepływu pasażerów. 
+Można również zauważyć, że lotnisko z Poznaniu, które miało nie najgorszą wartość efektywności ma małe poprawki w porównaniu do pozostałych lotnisk (w szczególności wejście 2 oraz 3).
+
 \section{Superefektywność}
 
-Otrzymane wartości superefektywności dla wszystkich lotnisk.
+W tabeli \ref{tab:airports-super-efficiency} przedstawione zostały otrzymane wartości superefektywności dla wszystkich lotnisk.
 
 \begin{table}[H]
     \centering
@@ -101,38 +141,47 @@ Otrzymane wartości superefektywności dla wszystkich lotnisk.
          BZG & 1.746 \\
          RZE & 0.409 \\
          IEG & 0.258 \\
+    \hline
     \end{tabular}
     \caption{Wartości superefektywności dla analizowanych lotnisk}
     \label{tab:airports-super-efficiency}
 \end{table}
 
+\noindent Największą superefektywność posiada Lotnisko Chopina w Warszawie (wartość większa od 2). Następne jest (co może być nieco zaskakujące) lotnisko w Gdańsku. Niewiele, ponieważ jedynie o cztery setne ponad 1.0 podniosła się efektywność dla lotniska we Wrocławiu.
+
 \section{Efektywność krzyżowa}
 
-W poniższej tabeli przedstawiono macierz efektywności krzyżowych dla wszystkich lotnisk oraz ich średnie efektywności krzyżowe. 
+W tabeli \ref{tab:airports-cross-efficiency} przedstawiono macierz efektywności krzyżowych dla wszystkich lotnisk oraz ich średnie efektywności krzyżowe. 
 
 \begin{table}[H]
-\resizebox{\textwidth}{!}{
-\begin{tabular}{c|ccccccccccc|c}
-\hline
-& WAW & KRK & KAT & WRO & POZ & LCJ & GDN &SZZ & BZG & RZE & IEG & $CR_{avg}$ \\ \hline
-WAW & 1.000 & 0.214 & 0.108 & 0.338 & 0.219 & 0.058 & 0.509 & 0.119 & 0.279 & 0.070 & 0.011 & 0.794 \\
-KRK & 0.800 & 1.000 & 0.456 & 0.908 & 0.590 & 0.136 & 0.508 & 0.127 & 0.961 & 0.289 & 0.001 & 0.718 \\
-KAT & 0.913 & 1.000 & 0.591 & 1.000 & 0.774 & 0.259 & 1.000 & 0.238 & 0.973 & 0.409 & 0.002 & 0.383 \\
-WRO & 0.997 & 1.000 & 0.470 & 1.000 & 0.649 & 0.153 & 0.615 & 0.156 & 1.000 & 0.295 & 0.003 & 0.756 \\
-POZ & 1.000 & 1.000 & 0.563 & 1.000 & 0.800 & 0.255 & 1.000 & 0.243 & 0.909 & 0.403 & 0.006 & 0.574 \\
-LCJ & 0.595 & 0.491 & 0.278 & 0.605 & 0.512 & 0.300 & 1.000 & 0.261 & 1.000 & 0.273 & 0.078 & 0.213 \\
-GDN & 0.452 & 0.468 & 0.333 & 0.500 & 0.433 & 0.250 & 1.000 & 0.214 & 0.500 & 0.250 & 0.025 & 0.812 \\
-SZZ & 1.000 & 0.755 & 0.371 & 0.856 & 0.737 & 0.273 & 1.000 & 0.271 & 1.000 & 0.346 & 0.036 & 0.201 \\
-BZG & 0.550 & 0.543 & 0.202 & 0.573 & 0.370 & 0.096 & 0.302 & 0.090 & 1.000 & 0.170 & 0.005 & 0.863 \\
-RZE & 0.903 & 0.996 & 0.591 & 1.000 & 0.770 & 0.261 & 1.000 & 0.238 & 1.000 & 0.409 & 0.002 & 0.287 \\
-IEG & 0.523 & 0.428 & 0.248 & 0.531 & 0.458 & 0.297 & 1.000 & 0.254 & 0.876 & 0.247 & 0.258 & 0.039 \\
-\hline
-\end{tabular}}
-\label{tab:airports-cross-efficiency}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{c|ccccccccccc|c}
+    \hline
+        & WAW & KRK & KAT & WRO & POZ & LCJ & GDN &SZZ & BZG & RZE & IEG & $CR_{avg}$ \\ \hline
+        WAW & 1.000 & 0.214 & 0.108 & 0.338 & 0.219 & 0.058 & 0.509 & 0.119 & 0.279 & 0.070 & 0.011 & 0.794 \\
+        KRK & 0.800 & 1.000 & 0.456 & 0.908 & 0.590 & 0.136 & 0.508 & 0.127 & 0.961 & 0.289 & 0.001 & 0.718 \\
+        KAT & 0.913 & 1.000 & 0.591 & 1.000 & 0.774 & 0.259 & 1.000 & 0.238 & 0.973 & 0.409 & 0.002 & 0.383 \\
+        WRO & 0.997 & 1.000 & 0.470 & 1.000 & 0.649 & 0.153 & 0.615 & 0.156 & 1.000 & 0.295 & 0.003 & 0.756 \\
+        POZ & 1.000 & 1.000 & 0.563 & 1.000 & 0.800 & 0.255 & 1.000 & 0.243 & 0.909 & 0.403 & 0.006 & 0.574 \\
+        LCJ & 0.595 & 0.491 & 0.278 & 0.605 & 0.512 & 0.300 & 1.000 & 0.261 & 1.000 & 0.273 & 0.078 & 0.213 \\
+        GDN & 0.452 & 0.468 & 0.333 & 0.500 & 0.433 & 0.250 & 1.000 & 0.214 & 0.500 & 0.250 & 0.025 & 0.812 \\
+        SZZ & 1.000 & 0.755 & 0.371 & 0.856 & 0.737 & 0.273 & 1.000 & 0.271 & 1.000 & 0.346 & 0.036 & 0.201 \\
+        BZG & 0.550 & 0.543 & 0.202 & 0.573 & 0.370 & 0.096 & 0.302 & 0.090 & 1.000 & 0.170 & 0.005 & 0.863 \\
+        RZE & 0.903 & 0.996 & 0.591 & 1.000 & 0.770 & 0.261 & 1.000 & 0.238 & 1.000 & 0.409 & 0.002 & 0.287 \\
+        IEG & 0.523 & 0.428 & 0.248 & 0.531 & 0.458 & 0.297 & 1.000 & 0.254 & 0.876 & 0.247 & 0.258 & 0.039 \\
+    \hline
+    \end{tabular}}
+    \caption{Wartości efektywności krzyżowych dla analizowanych lotnisk}
+    \label{tab:airports-cross-efficiency}
 \end{table}
+
+\noindent Efektywność krzyżowa umożliwia analizę efektywności dla wektorów wag, które są optymalne dla innych lotnisk.
+Uśrednione wyniki dla każdego lotniska wskazują, że największe efektywności mają lotniska BZG (Bydgoszcz), GDN (Gdańsk) oraz WAW (Warszawa Okęcie). Najgorzej wypada IEG (Babimost Zielona Góra).
+W tabeli można zaobserwować ciekawe wartości dla wag optymalnych dla GDN oraz BZG, dla których sporo lotnisk osiąga efektywność równą 1.
             
 \section{Rozkład efektywności}
-Wyniki rozkładu efektywności (podział na 5 przedziałów) oraz oszacowana oczekiwana wartość efektywności dla wszystkich lotnisk.
+W tabeli \ref{tab:efficiency-distribution} zaprezentowano wyniki rozkładu efektywności (podział na 5 przedziałów) oraz oszacowana oczekiwana wartość efektywności dla wszystkich lotnisk.
+
 \begin{table}[H]
 \begin{tabular}{c|ccccc|c}
 \hline
@@ -150,16 +199,35 @@ Wyniki rozkładu efektywności (podział na 5 przedziałów) oraz oszacowana ocz
     IEG & 1.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.010 \\
 \hline
 \end{tabular}
+\caption{Rozkład efektywności dla analizowanych lotnisk}
 \label{tab:efficiency-distribution}
 \end{table}
+
+\noindent Analiza stochastyczna pozwaliła na zbadanie jakie efektywności osiągają poszczególne lotniska dla różnych, spróbkowanych wartości wag.
+Podział na kubełki efektywności pozwala stwierdzić które wartości efektywności są osiągane przez lotniska często, a które rzadko.
+Wśród badanych lotnisk wyróżnia się Warszawa Okęcie, dla którego aż 88\% wartości należy do przedziału 0.8-1.0.
+W sposób negatywny wyróżniają się lotniska LCJ, SZZ oraz IEG, dla którego 100\% uzyskanych wartości mieści się w przedziale 0.0-0.2.
+Dodatkowo wyliczona oszacowana wartość efektywności informuje jaką średnią efektywność uzyskały poszczególne lotniska na wylosowanych próbkach.
+Odpowiada ona mniej więcej temu co można zaobserwować na podstawie rozkładu efektywności - najwyższą wartość uzyskuje Warszawa, a najgorsze Łódź, Szczecin oraz Zielona Góra.
 
 \section{Rankingi jednostek}
 Rankingi lotnisk uzyskane różnymi metodami (superefektywność, średnia efektywność krzyżowa oraz oczekiwana wartość efektywności).
 
 \noindent Superefektywność: $ WAW \succ GDN \succ BZG \succ KRK \succ WRO \succ POZ \succ KAT \succ RZE \succ LCJ \succ SZZ \succ IEG$ \\
-Średnia efektywność krzyżowa: $ BZG \succ GDN \succ WAW \succ WRO \succ KRK \succ POZ \succ KAT \succ RZE \succ LCJ \succ SZZ \succ IEG \succ $ \\
-Oczekiwana wartość efektywności: $ WAW \succ BZG \succ WRO \succ KRK \succ POZ \succ GDN \succ KAT \succ RZE \succ SZZ \succ LCJ \succ IEG \succ $ \\
+Średnia efektywność krzyżowa: $ BZG \succ GDN \succ WAW \succ WRO \succ KRK \succ POZ \succ KAT \succ RZE \succ LCJ \succ SZZ \succ IEG $ \\
+Oczekiwana wartość efektywności: $ WAW \succ BZG \succ WRO \succ KRK \succ POZ \succ GDN \succ KAT \succ RZE \succ SZZ \succ LCJ \succ IEG $ \\
 
-\textcolor{blue}{Tu przedstaw wnioski z porównania rankingów.}
+\noindent Uzyskane różnymi sposobami rankingu różnią się miejscami pomiędzy sobą.
+Mimo to można zauważyć, że dla wszystkich trzech rankingów w pierwszej trójce lotnisk znajdują się zawsze Warszawa oraz Bydgoszcz.
+Gdańsk uzyskuje wysokie pozycje (dwa razy drugie miejsce) dla superefektywności oraz średniej efektywności krzyżowej, ale dopiero szóste miejsce dla oszacowanej efektywności.
+W środku rankingów znajdują się zawsze Kraków, Poznań, Wrocław, Katowice oraz Rzeszów chociaż w zależności od rankingu zajmują one różną kolejność.
+Wrocław wyróżnia się nieco spośród wymienionych lotnisk, ponieważ dwa razy zajmuje czwartą pozycję (dla efektywności krzyżowej oraz oszacowanej efektywności).
+Na końcu rankingu znajdują się zawsze Łódź, Szczecin oraz Zielona Góra. Łódź i Szczecin wymieniają się miejscami w rankingu oszacowanej efektywności i to Szczecin uzyskuje większą wartość.
+Zielona Góra dla każdego rankingu wypada najgorzej i zajmuje ostatnie miejsce.
+
+\section{Podsumowanie}
+
+W ramach sprawozdania zbadane zostały efektywności lotnisk w Polsce. Wykorzystano do tego metody Data Envelopment Analysis - wyliczanie efektywności modelem CCR zorientowanym na nakłady, wyliczanie superefektywności, obliczanie efektywności krzyżowej oraz wykorzystanie analizy stochastycznej.
+Dla lotnisk, które okazały się niefektywne wypracowano rekomendacje w których aspektach nakładów muszą się poprawić oraz o ile, aby stać się efektywnymi. Na koniec zaprezentowane zostały rankingi jednostek uzyskane różnymi z wykorzystanych sposobów.
 
 \end{document}
