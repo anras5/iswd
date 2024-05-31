@@ -168,3 +168,4 @@ src/DATA-ENVELOPMENT-ANALYSIS/raport/*
 # But do not ignore .tex and .sh files in the raport directory
 !src/DATA-ENVELOPMENT-ANALYSIS/raport/*.tex
 !src/DATA-ENVELOPMENT-ANALYSIS/raport/*.sh
+!src/DATA-ENVELOPMENT-ANALYSIS/raport/overleaf
