@@ -1,5 +1,6 @@
-# Inteligentne Systemy Wspomagania Decyzji
+# Intelligent Decision Support Systems / Inteligentne Systemy Wspomagania Decyzji
 
+Run using docker:
 ```
 docker compose up
 ```
